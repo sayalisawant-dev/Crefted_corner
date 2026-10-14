@@ -1,0 +1,15 @@
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: var(--radius-full);
+  line-height: 1.4;
+}
+
+.new      { background: var(--color-charcoal); color: #fff; }
+.sale     { background: var(--color-accent);   color: #fff; }
+.featured { background: var(--color-accent-light); color: var(--color-accent-dark); }
+.neutral  { background: var(--color-surface-alt); color: var(--color-text-secondary); }
